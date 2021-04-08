@@ -12,8 +12,7 @@ import AVFoundation
 // MARK: - Audio Recorder Delegate
 class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
-//    var  audioRecorder: AVAudioRecorder!
-    var  audioRecorder = AVAudioRecorder()
+    var  audioRecorder: AVAudioRecorder!
    
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
